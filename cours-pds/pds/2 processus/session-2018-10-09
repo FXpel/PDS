@@ -1,0 +1,42 @@
+lsof
+lsof | less -S
+pidof vim
+pushd /proc/1370/fd
+ls -al
+env
+time ./exec
+chmod u-x partage1
+./partage1
+chmod +x script.sh
+./script.sh
+/bin/bash script.sh
+
+mkdir test
+cd test
+> a
+ls -al
+sudo chown root.root a
+ls -al
+rm a
+ls -al
+rm /tmp/.X0-lock
+cd ..
+echo a > test/a
+echo b > test/b
+chmod -rw test
+ls -ald test
+ls test
+cat test/a
+chmod -r test/a
+chmod +r test/a
+chmod -x test
+cat test/a
+chmod +r test
+cat test/a
+ls -ald test
+ls -al test
+
+./echo-redir
+cat /tmp/a
+cat < partage1.c
+sh -c "echo a; echo b"

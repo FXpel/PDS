@@ -1,0 +1,30 @@
+Commandes qui ont été lancées pendant le cours du 12 septembre
+
+ls -l /dev
+mount
+du -h
+du -sc *
+
+cd /tmp/
+ln -s a b
+ls -l
+cat b
+echo contenu > a
+cat b
+ln -s /tmp ln
+cd ln
+cd ln
+cd ln
+ls -l
+cd /tmp/
+ln -s piege piege
+ls -l piege
+cat piege
+for (( i = 100 ; i < 200 ; i ++ )); do echo ln -s $i $((i+1)); done
+ls -l ???
+touch 100
+ls -l ???
+cat 141
+cat 140
+ls -l /bin/sh
+ls -l /etc/alternatives/

@@ -1,0 +1,23 @@
+ls /var/run/
+ls /var/run/ > /tmp/log
+ls -al /tmp/log
+cat /tmp/log
+ls /var/run | tee /tmp/log2
+cat /tmp/log2
+./cp cp.c /tmp/cp.c
+ls -al /tmp/cp.c
+rm /tmp/cp.c
+make
+./cp cp.c /tmp/cp.c
+ls -al /tmp/cp.c
+diff cp.c /tmp/cp.c
+./cat cat.c
+./cat cat | less
+./seek /tmp/seek-test
+ls -l /tmp/seek-test
+make
+./seek /tmp/seek-test
+ls -l /tmp/seek-test
+xxd /tmp/seek-test
+stat /tmp/seek-test
+./write-printf

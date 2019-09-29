@@ -1,0 +1,15 @@
+xeyes
+^Z
+jobs
+pidof xeyes
+ls /proc/2354/
+cat /proc/2354/status
+fg
+^Z
+bg
+xeyes &
+jobs
+pidof xeyes
+kill 2354
+kill 4404
+time xeyes

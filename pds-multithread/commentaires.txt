@@ -1,0 +1,5 @@
+Comment utiliser : 
+./tri-rapide -cvn 3 test.txt
+
+Exemple: 
+dd if=/dev/urandom of=/tmp/alea bs=1048576 count=128 

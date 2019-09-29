@@ -1,0 +1,17 @@
+4	mdu.c
+#commande originale
+8	mdu.c
+#commande mdu
+4	mdu.c
+#commande originale avec option -b
+1903	mdu.c
+#commande mdu avec option -b 
+1903	mdu.c
+#commande originale
+8	mdu.c
+#commande mdu
+4	mdu.c
+#commande originale avec option -b
+1903	mdu.c
+#commande mdu avec option -b 
+1903	mdu.c

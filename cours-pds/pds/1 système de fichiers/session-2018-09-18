@@ -1,0 +1,33 @@
+./mkdir /tmp/rep
+ls -ld /tmp/rep
+umask
+umask 0077
+./mkdir /tmp/rep2
+ls -ld /tmp/rep*
+touch /tmp/rep/fic
+./ls /tmp/rep
+pushd /tmp/rep
+ln -s fic symbolique
+ls -l
+~-/ls .
+ln -s rien symboliquecasse
+ls -l
+~-/ls .
+popd
+./ls /tmp/rep
+ls -l /tmp/rep
+pushd /tmp/rep
+mkdir sousrep
+mv symbolique* sousrep/
+ls -l sousrep/
+ln fic physique
+~-/ls .
+ls -l
+mv fic sousrep/
+ls -l sousrep/
+rm sousrep/fic
+ls -l sousrep/
+cat physique
+ln -s /tmp/rep lien-boucle
+find /tmp/rep
+find -L /tmp/rep
